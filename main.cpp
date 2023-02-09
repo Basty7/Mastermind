@@ -74,7 +74,7 @@ int main() {
             cout << "Vous essayez de tricher ?" << endl;
         } 
         else if (goodPlaced == 4) {
-            cout << "Bravo, vous avez gagne !" << endl << "Il vous a fallu " << nbTrials << " essais pour trouver."
+            cout << "Bravo, vous avez gagne !" << endl << "Il vous a fallu " << nbTrials + 1<< " essais pour trouver."
                 << endl << "Redemarrez le programme pour jouer a nouveau" << endl;
             solution = true;
             sleep(10);
