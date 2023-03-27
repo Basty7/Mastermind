@@ -6,8 +6,7 @@
 using namespace std;
 
 
-string codegen()
-{
+string codegen() {
     char colors[8] = {
             'R',
             'V',
