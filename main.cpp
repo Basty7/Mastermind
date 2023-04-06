@@ -54,7 +54,7 @@ int main() {
         }
 
         for (int i = 0; i < 4; ++i) {
-            nbSame += (useranswer[i] == useranswer[0]);
+            nbSame += (useranswer[i] == useranswer[0]); // si useranswer[i] == uneranswer[0]: nbSame ++
             nbSame += (useranswer[i] == useranswer[1]);
             nbSame += (useranswer[i] == useranswer[2]);
             nbSame += (useranswer[i] == useranswer[3]);
